@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(56, 55, 55);
+}
+
+.container_modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-image: linear-gradient(to right, #182243, #1C2F4F, #192444);
+    background-attachment: fixed;
+    position: fixed;
+    height: 550px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    border: 1px solid white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.novamente>button {
+    width: 185px;
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.novamente>p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.txt {
+    font-size: 24px;
+    color: white;
+}
+
+.show {
+    opacity: 1;
+    pointer-events: visible;
+}
+
+.off {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.decisao {
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.formatar {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.player_local>img {
+    display: block;
+    margin: auto;
+    width: 80px;
+    margin-top: 25px;
+}
+
+.casa_local>img {
+    display: block;
+    margin: auto;
+    width: 80px;
+    margin-top: 25px;
+}
+
+.jogador>p {
+    text-align: center;
+    margin-top: 20px;
+}

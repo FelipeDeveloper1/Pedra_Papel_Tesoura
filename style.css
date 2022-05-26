@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, #182243, #1C2F4F, #192444);
+    background-attachment: fixed;
+}
+
+.placar {
+    display: flex;
+    width: 580px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.jogadas {
+    color: white;
+    font-size: 29px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.score {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 30px;
+    border: 1px solid white;
+    height: 89px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.score>p {
+    text-align: center;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.valor {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game {
+    margin-top: 50px;
+}
+
+.primeira_linha {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.segunda_linha {
+    display: grid;
+    place-items: center;
+    margin-top: 80px;
+}
+
+.default {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.pedra {
+    border: 18px solid rgb(226, 74, 74);
+}
+
+.papel {
+    border: 18px solid #5B74EC;
+}
+
+.tesoura {
+    border: 18px solid #EAA020;
+}
+
+.default>img {
+    display: block;
+    width: 80px;
+    margin: auto;
+}
+
+.empate {
+    margin-top: 40%;
+}

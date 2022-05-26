@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="placar">
+        <div class="jogadas">
+            <p>Pedra</p>
+            <p>Papel</p>
+            <p>Tesoura</p>
+        </div>
+        <div class="score">
+            <p>Pontos</p>
+            <p class="valor">0</p>
+        </div>
+    </section>
+    <section class='game'>
+        <div class="container_modal">
+            <div class="modal">
+                <div class="jogador txt">
+                    <p>Voce escolheu</p>
+                    <div class="player_local">
+
+                    </div>
+                </div>
+                <div class="novamente">
+                    <p class="decisao "></p>
+                    <button onclick="jogar()">Jogar novamente</button>
+                </div>
+
+                <div class="casa txt">
+                    <p>A casa escolheu</p>
+                    <div class="casa_local">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="vai">
+            <div class="primeira_linha">
+                <button class='papel default' onclick="selecionar('papel.svg')">
+                <img src="papel.svg" alt="" srcset="">
+            </button>
+                <button class="tesoura default" onclick="selecionar('tesoura.svg')">
+                <img src="tesoura.svg" alt=" " srcset=" " >
+            </button>
+            </div>
+            <div class="segunda_linha ">
+                <button class="pedra default " onclick="selecionar('pedra.svg')">
+                <img src="pedra.svg" alt=" " srcset=" ">
+            </button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="code.js "></script>
+
+</html>
